@@ -1,7 +1,7 @@
 class DynamicController < ApplicationController
   
     def gossip
-        @gossip = Gossip.find(params[:id])
+        @gossip = Gossip.find(params[:id].to_i)
     end
   
 

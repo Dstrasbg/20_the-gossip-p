@@ -32,19 +32,18 @@ end
 # drawing some tags (requires nothing)
 tags = [
   'sexual assault', 'racist behavior', 'lack of kindness',
-  'fake romance', 'useless', 'fake news', 'hearsay', 'trash talk',
-  'homophobia', 'transphobia'
+  'fake romance', 'useless', 'fake news', 'hearsay', 'trash talk'
 ]
 
 tags.each do |tag|
   Tag.create(title: tag)
 end
 
-# creating the gossip_metum exchange table (requires gossips, tags)
+# creating the gossip_comcos exchange table (requires gossips, tags)
 Gossip.all.each do |gossip| # making sure each gossip has at least one tag
   tag_ids = Tag.all.sample(4).map { |tag| tag.id } # selecting 4 random tag ids
   tag_ids.each do |id| # creating the meta
-      GossipMetum.create(gossip_id: gossip.id, tag_id: id)
+      GossipCommComm.create(gossip_id: gossip.id, tag_id: id)
   end
 end
 

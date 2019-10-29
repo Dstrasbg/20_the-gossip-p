@@ -7,4 +7,3 @@ class MessageDelivering < ApplicationRecord
   # class_name tells rails received_message is a private_message
   belongs_to :received_message, class_name: 'PrivateMessage'
 end
-end
