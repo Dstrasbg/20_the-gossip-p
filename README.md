@@ -7,17 +7,17 @@ C'est le retour du "THE GOSSIP PROJET", qui sera rempli de plein de potins hihi.
 Avant tout :
 
 Il faut cloner le repo ou télécharger le ZIP
-> https://github.com/Dstrasbg/20_the-gossip-p.git
+- https://github.com/Dstrasbg/20_the-gossip-p.git
 
->Ouvrir le terminal à la place où se trouve le dossier
+- Ouvrir le terminal à la place où se trouve le dossier
 
->Installer les gemes grâce à:
+- Installer les gemes grâce à:
  $ bundle install
 
->Recréer la BDD
+- Recréer la BDD
  $ rake db:migrate db:seed
 
->Lancer rails server:
+- Lancer rails server:
  $ rails s
 
 >Aller sur le site TGP sur localhost:3000
@@ -39,21 +39,21 @@ Le site te permettra de d'avoir:
 
 Configuration requise:
 
-> Ruby version: 
-  $ ruby -v
-  ruby 2.5.1
+-Ruby version: 
+ $ ruby -v
+ ruby 2.5.1
 
-> Rails version:
-  $ rails -v
-  Rails 5.2.3
+-Rails version:
+ $ rails -v
+ Rails 5.2.3
 
-> Bundler version
-  $ bundle -v
-  Bundler version 2.0.2
+-Bundler version
+ $ bundle -v
+ Bundler version 2.0.2
 
-> Postgresql version
-  $ psql --version
-  sql (PostgreSQL) 9.5.19
+-Postgresql version
+ $ psql --version
+ psql (PostgreSQL) 9.5.19
 
 -----
 
